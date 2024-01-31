@@ -1,0 +1,127 @@
+/* ==== Variables ==== */
+:root {
+    --primary-color: #10b981;
+    --white-color: #FFFFFF;
+    --black-color: #2B2B2B;
+}
+
+
+/* ==== Configuration ==== */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /* 62.5% => 10px */
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "IranYekanX-Regular";
+    line-height: 1.6;
+    font-size: 1.6rem;
+    direction: rtl;
+    text-align: right;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ==== Resets ==== */
+#svg {
+    display: none;
+}
+
+button,
+input {
+    outline: none;
+    border: none;
+}
+
+input {
+    font-family: "IranYekanX-Medium";
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* ==== Start ==== */
+.container {
+    width: 100%;
+    max-width: 50rem;
+}
+
+.random-pass {
+    box-shadow: 0px 12px 56px 0px rgba(6, 28, 61, 0.12);
+    padding: 2.4rem;
+    border-radius: 1rem;
+}
+
+.random-pass__title {
+    color: var(--black-color);
+    font-family: "IranYekanX-ExtraBold";
+}
+
+.random-pass__title span {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    background-color: var(--white-color);
+    padding: 1rem 1rem 1rem 2rem;
+    border-radius: 1rem;
+    border: 2px solid var(--primary-color);
+}
+
+.form__input {
+    flex-grow: 1;
+    height: 100%;
+    font-size: 1.8rem;
+    padding: 1rem;
+}
+
+.form__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.form__icon svg {
+    width: 3rem;
+    height: 3rem;
+    color: var(--primary-color);
+}
+
+.random-pass__btn {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    background-color: var(--primary-color);
+    width: max-content;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    font-family: "IranYekanX-Medium";
+    color: var(--white-color);
+}
+
+.random-pass__btn svg {
+    width: 3rem;
+    height: 3rem;
+}
+
+/* ==== Finish ==== */
