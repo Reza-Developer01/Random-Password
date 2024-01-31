@@ -6,7 +6,7 @@
 
 ![RandomPass2](https://github.com/Reza-Developer01/Random-Password/assets/157674736/7fbed725-40ce-4cff-98f1-ae66b4823886)
 
-- ✨ [Demo Project]([https://reza-developer01.github.io/Random-Password/])
+- ✨ [Demo Project]([https://reza-developer01.github.io/Random-Password/)
 
 - 👨‍💻 Developed by Reza Rashvand
 
